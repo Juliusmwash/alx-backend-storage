@@ -38,7 +38,7 @@ def main():
     print(f"{total_logs} logs")
     print("Methods:")
     for method, count in method_counts.items():
-        print(f"    method {method}: {count}")
+        print(f"\tmethod {method}: {count}")
     print(f"{status_check} status check")
 
 
